@@ -14,6 +14,15 @@
       "include_dirs" : [
         "<!(node -e \"require('nan')\")"
       ]
+    },
+    {
+      "target_name": "nfqueue_package",
+      "type": "none",
+      "dependencies": [ "nfqueue" ],
+      "copies":
+        [{ "destination": "./",
+           "files": [ './build/Release/nfqueue.node' ]
+        }]
     }
   ]
 }

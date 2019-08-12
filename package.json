@@ -7,10 +7,9 @@
     "email": "anthony.hinsinger@gmail.com"
   },
   "contributors": [
-    {
-      "name": "Aleksandr Komlev"
-    }
-  ],
+      "Aleksandr Komlev <anthony.hinsinger@gmail.com>",
+      "Brian G. Shea <bgshea@gmail.com>"
+    ],
   "main": "./nfqueue",
   "repository": {
     "type": "git",
@@ -23,7 +22,7 @@
     "netfilter",
     "iptables"
   ],
-  "dependencies": {
+  "devDependencies": {
     "nan": "^2.2.0"
   }
 }

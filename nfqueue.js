@@ -17,7 +17,7 @@
  *
  */
 
-var binding = require('nfqueue');
+var binding = require('./nfqueue_binding');
 
 /* Constant */
 var i = 0;

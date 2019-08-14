@@ -1,7 +1,7 @@
 {
   "targets": [
     {
-      "target_name": "nfqueue",
+      "target_name": "nfqueue_binding",
       "sources": [
         "src/node_nfqueue.cpp"
       ],
@@ -18,10 +18,10 @@
     {
       "target_name": "nfqueue_package",
       "type": "none",
-      "dependencies": [ "nfqueue" ],
+      "dependencies": [ "nfqueue_binding" ],
       "copies":
         [{ "destination": "./",
-           "files": [ './build/Release/nfqueue.node' ]
+           "files": [ './build/Release/nfqueue_binding.node' ]
         }]
     }
   ]
